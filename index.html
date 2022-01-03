@@ -1,0 +1,607 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<head>
+    <title>The 5th Visualization Workshop 可視化情報学会第5回ビジュアリゼーションワークショップ</title>
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <!-- common-js files -->
+    <script type="text/javascript" src="js/jquery1.3.min.js"></script>
+
+    <!-- common-js files -->
+    <!-- theme-style -->
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <!-- theme-style -->
+    <meta name="keywords" content="">
+    <meta http-equiv="Content-Type" content="text/html; charset=ShiftJIS">
+
+
+    <style type="text/css">
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .iw_poi_title {
+        color: #CC5522;
+        font-size: 14px;
+        font-weight: bold;
+        overflow: hidden;
+        padding-right: 13px;
+        white-space: nowrap
+    }
+
+    .iw_poi_content {
+        font: 12px arial, sans-serif;
+        overflow: visible;
+        padding-top: 4px;
+        white-space: -moz-pre-wrap;
+        word-wrap: break-word
+    }
+    td{
+        vertical-align: top;
+        padding-top: 4px;
+    }
+
+    </style>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-77360964-2', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+</head>
+
+<body>
+    <!--header-->
+    <div class="header">
+        <!--container-->
+        <div class="container">
+            <div class="top-header">
+                <!-- <div class="logo" >
+                <img src="images/maintitle.png" style="display:block;width:100%;" />
+                </div>
+               <br><br><br> -->
+               <div class="menu">
+                    <a class="toggleMenu" href="#"><img src="" alt="" /> </a>
+
+                    <ul class="nav navbar-nav" id="nav">
+                      <!--  <li><a href="#conferenceInfo" class="scroll"><span style="text-transform:none">Introduction</span></a></li>-->
+                        <li><a href="#top" class="scroll"><span style="text-transform:none">トップ</span></a></li>
+                        <li><a href="#registration" class="scroll"><span style="text-transform:none">参加登録・発表募集</span></a></li>
+                        <li><a href="#program" class="scroll"><span style="text-transform:none">プログラム</span></a></li>
+                        <li><a href="#invited" class="scroll"><span style="text-transform:none">チュートリアル・講演</span></a></li>
+                        <li><a href="#organizer" class="scroll"><span style="text-transform:none">実行委員会・協賛団体</span></a></li>
+                        <!-- <li><a href="#access" class="scroll"><span style="text-transform:none">アクセス</span></a></li> -->
+                      <!--  <li><a href="#report" class="scroll"><span style="text-transform:none">Report</span></a></li>
+                        <li><a href="#photo" class="scroll"><span style="text-transform:none">Photo</span></a></li>
+                        -->
+                    </ul>
+                    <script type="text/javascript" src="js/responsive-nav.js"></script>
+                    <script type="text/javascript" src="js/move-top.js"></script>
+                    <script type="text/javascript" src="js/easing.js"></script>
+
+                    <script type="text/javascript">
+                    jQuery(document).ready(function($) {
+                        $(".scroll").click(function(event) {
+                            event.preventDefault();
+                            $('html,body').animate({
+                                scrollTop: $(this.hash).offset().top
+                            }, 1000);
+                        });
+                    });
+                    </script>
+                </div>
+
+                </div>
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+        <!--container-->
+    </div>
+    <!--header-->
+    <!--banner-->
+    <!--start-slider-script-->
+    <script src="js/responsiveslides.min.js"></script>
+    <script>
+    // You can also use "$(window).load(function() {"
+    $(function() {
+        // Slideshow 4
+        $("#slider5").responsiveSlides({
+            auto: true,
+            pager: true,
+            nav: true,
+            speed: 500,
+            namespace: "callbacks",
+            before: function() {
+                $('.events').append("<li>before event fired.</li>");
+            },
+            after: function() {
+                $('.events').append("<li>after event fired.</li>");
+            }
+        });
+
+    });
+    </script>
+    <!--//End-slider-script-->
+    <!-- Slideshow 4 -->
+   <!--  <div id="top" class="callbacks_container">
+        <ul class="rslides" id="slider5">
+            <li>
+                <img src="" alt="">
+            </li>
+        </ul>
+    </div> -->
+        <div class="clearfix"> </div>
+<!--            <div class="container" id="conferenceInfo" style="text-align:center">-->
+            <div class="container" id="top" style="padding-top : 80px">
+                <center><img src="image/visws2022-banner.jpg" width=100%></center>
+                <div class="content-we">
+                  <!--  <h2 style="text-transform:none"><span class="we-are"> </span>Introduction</h2>-->
+                </div>
+                <div class="row"  >
+                    <div class="col-md-7 para-matter">
+                        <div class="sit" style="text-align:center;font-size:22px">
+                        </div>
+                        <p class="sit">
+
+                          可視化技術に関わる研究者・教育者・企業関係者・学生の交流の場を提供するワークショップを開催いたします。<br>
+                          可視化に関係ある幅広い分野からのチュートリアルと基調講演を企画し、さらにポスター発表を広く募集します。<br>
+                          自然科学・工学・医学から人文科学・社会科学・芸術まで、幅広い対象の可視化の研究発表を歓迎いたします。<br>
+                          皆様のご参加を心からお待ちしております。<br><br>
+
+
+                                <b>日時:</b> 2022年2月24日(木)<br>
+                                <b>場所: </b><a href="#access" class="scroll">オンライン</a><br>
+				                        <b>連絡先: </b><font color=#FF0000>visws2022_at_googlegroups.com</font></b><br>
+
+
+                        </table>
+                        </p>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+
+            </div><!-- conferenceInfo End-->
+
+
+            <div class="clearfix"> </div>
+            <div class="container" id="registration"  style="padding-top : 80px">
+                <div class="content-we">
+                    <h2 style="text-transform:none"><span class="we-are"> </span>参加登録・発表募集</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 para-matter">
+                        <p class="sit">
+
+                        <h3>参加費</h3>
+                        <strong>
+                        <!-- 3000円（学生）<br> -->
+                        無料（学生）<br>
+                        5000円（可視化情報学会会員・協賛学会会員）<br>
+                        7000円（一般）<br>
+                        </strong>
+                        ※参加費は<u>非課税</u>です。<br>
+                        ※支払方法は参加登録された方にメールでお知らせします。銀行振り込みが可能な方は2月16日(水)までに<br>
+                        お振込みください。
+                        <!-- それが難しい場合には当日現金での支払いをお願いします。-->
+                        <br><br>
+
+                        <!-- <strong>オンライン参加登録は締め切りました。</strong>
+                        当日現地での参加登録および現金での参加費支払をよろしく<br>
+                        お願いします。クレジットカード等での決済は対応していません。 -->
+                        <!--
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSd65VtiamTKhEx4hibnTG_bnTSoLfTBCptr3a34QXFnoJ7BOA/viewform" target=_blank>
+                        <h3>参加登録フォーム</h3>
+                        <strong>こちらから</strong></a>参加登録してください。
+                        -->
+                        <br><br>
+
+                        <h3>ポスター発表募集</h3>
+                        可視化に関係あるポスター発表を広く募集します。
+                        <ul>
+                        <li>予稿の提出は必須ではありませんが、ポスターのソフトコピー(PDF形式)の提出を歓迎します。
+                          <ul>
+                          <li>ポスターのソフトコピーを<strong>提出しない場合にも事前申込は必須</strong>ですのでご注意ください。
+                          <li>ポスターのソフトコピーを<strong>当ウェブに掲載</strong>いたしますのでご注意ください。
+                        </ul>
+                        <li>学生による優秀なポスター発表を当日投票により表彰します。
+                          <ul>
+                          <li>ただし<strong>表彰対象者はポスターのソフトコピーを提出した人に限られる</strong>点にご注意ください。
+                          </ul>
+                        </ul>
+                        <strong>申込期限：2月11日(金)<br>
+                        ソフトコピー提出期限：2月18日(金)<br></strong>
+                        <!-- ソフトコピーはメールで visws2019-poster (at) itolab.is.ocha.ac.jp までお送りください。 -->
+                        <br><br>
+                        <!--
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeGqpx0FprIlpAGlUemAZ1q1iKng_g8i2kn0YY35bRA13I8FA/viewform?usp=sf_link" target=_blank>
+                        <h3>ポスター発表申込フォーム</h3>
+                        <strong>こちらから</strong></a>お申込みください。
+                      -->
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="container" id="program"   style="padding-top : 80px">
+                <div class="content-we">
+                    <h2 style="text-transform:none"><span class="we-are"> </span>プログラム(仮)</h2>
+                </div>
+                <div class="sit">
+
+                <table><tr><td width=150>
+                10:00〜12:00
+                </td><td>
+                <h4>チュートリアル</h4>
+                <h5>チュートリアル1: 汎用可視化フレームワーク：Untiy上で動作する可視化フレームワークVisAssets（川原慎太郎）<h5>
+                <h5>チュートリアル2: Bokehを用いたPython上でのインタラクティブな可視化(仮)（伊藤正彦）
+                </td></tr>
+                
+                <tr><td width=150>
+                12:30〜14:30
+                </td><td>
+                <h4><a href="poster.html" target=_blank>ポスター発表</h4>
+                </td></tr>
+              
+                <tr><td width=150>
+                14:40〜15:10
+                </td><td>
+                <h4>基調講演1</h4>
+                <h5>TBA（夏川　浩明）
+                </td></tr>
+                
+                <tr><td width=150>
+                15:15〜15:45
+                </td><td>
+                <h4>基調講演2</h4>
+                <h5>TBA（鳥海不二夫）</h5>
+                </td></tr>
+              
+                <tr><td width=150>
+                15:50〜16:20
+                </td><td>
+                <h4>基調講演3</h4>
+                <h5>VRは人々の心をオープンにするか？（市野順子）</h5>
+                </td></tr>
+              
+                <tr><td width=150>
+                16:30〜17:00
+                </td><td>
+                <h4>シーグラフ東京セッション</h4>
+                <h5>現地＋オンラインで開催した SIGGRAPH 2021 ＆ SIGGRAPH ASIA 2021 レポート（安藤幸央）</h5>
+                </td></tr>
+
+                <tr><td width=150>
+                17:00〜17:15
+                </td><td>
+                <h4>閉会式・ポスター発表表彰</h4>
+                </td></tr>
+              
+                <tr><td width=150>
+                  17:30〜18:30
+                  </td><td>
+                  <h4>オンライン懇親会</h4>
+                </td></tr>
+
+                </table>
+
+
+<!--               <br><br>
+              <font size=+1><b>
+              <a href="poster.html" target=_blank>ポスター発表のタイトル一覧はこちらのページ</a>にあります。
+              </b></font>
+              </div><br><br>
+ -->
+            </div>
+
+       <br> <br>
+
+        </div>
+
+<!--        
+         <div class="content" id="attend">
+            <div class="content-top" id="news">
+                <div class="container" id="invited"  style="padding-top : 80px">
+                    <div class="content-we">
+                      <h2 style="text-transform:none"><span class="we-are"> </span>
+                            チュートリアル・基調講演</h2>
+		                </div>
+                    <div class="row">
+
+            <br><br>
+-->
+
+
+<!-- 
+
+            <table><tr><td>
+              <td width=250>
+              <h2>安原祐二</h2>
+              ユニティ・テクノロジーズ・ジャパン合同会社 フィールドエンジニア<br>
+              <img src="image/yasuhara.jpg" width=200>
+              </td>
+              <td width=650>
+            <h3>チュートリアル1:<br>Unityハンズオンセミナー お手軽ビジュアリゼーション講座</h3>
+
+            ゲームエンジンのUnityは、学術分野に於いても重要なツールとなりつつあります。
+            特に可視化分野にとっては非常に強力なレンダリングを提供しつつ、扱いやすさも実現しています。
+            ただし、ゲーム制作に関するUnityの情報はあふれていますが、
+            単純な可視化をまっすぐに実現するための手法は、情報がけっして多くはないというのが実情です。
+            このチュートリアルでは、シンプルながらも可視化の魅力を十分に伝えられるコンテンツのプロジェクトをベースに、
+            Unityの実装の勘所を伝えていきます。
+            参加者のみなさんに、研究活動で役に立つUnityで動作する可視化ツールを解説付きでお渡しします。
+            <br><br>
+            20年のゲーム制作を経て2015年にUnity社に参加、Unityの実装や講演をこなす。東北大学工学部機械知能工学科修士課程終了。
+            <br><br>
+            <font size=+1><strong><a href="tutorial-yasuhara.pdf" target=_blank>本資料</a></strong></font>と
+            <font size=+1><strong><a href="tutorial-supplement-yasuhara.pdf" target=_blank>補足資料</a></strong></font>をご提供いただきました。
+            <br><br>
+            <strong>【重要】このチュートリアルの参加者はノートPC持参の方に限定します。
+            あらかじめ Unity（バージョン 2018.3）をインストールしてきてください。</strong>
+            <br>
+            また、Unityが初めての方はあらかじめアカウントの作成もお願いします。
+            <ul>
+            <li> Unity の動作要件<br>（いずれも厳しい制約ではなく、2016年以降に入手した機器であれば問題ないはずです）
+             <ul>
+               <li>Windowの場合は Windows 7 SP1+ または Windows 8, Windows 10, いずれも 64-bit であること
+               <li>Mac の場合は macOS 10.11以降（OS X El Capitan以降）
+             </ul>
+            <li>Unity 2018.3 のインストール方法
+              <ul>
+                <li>インストールは、Unity Hub というランチャーをインストールしてから Unity Hub 経由でインストールするのが推奨されます。<br>
+                  手順：<br>
+                  <a href="https://docs.unity3d.com/ja/current/Manual/GettingStartedInstallingHub.html" target=_blank>
+                    https://docs.unity3d.com/ja/current/Manual/GettingStartedInstallingHub.html </a>
+              </ul>
+            <li>Unityアカウント作成方法
+              <ul>
+                <li>初めての利用にはUnity起動時にアカウントが必要です。基本的には画面に従うことで完了します。なお、アカウント作成画面は英語になります。<br>
+                  手順：<br>
+                  <A href="https://docs.unity3d.com/ja/current/Manual/GettingStarted.html" target=_blank>
+                    https://docs.unity3d.com/ja/current/Manual/GettingStarted.html </a>
+              </ul>
+            </ul>
+
+            </td></tr></table>
+
+
+            <table><tr>
+            <td width=250>
+            <h2><a href="https://www.univ.gakushuin.ac.jp/eco/education/professor/list/man/shirota.html" target=_blank>白田由香利</a> </h2>
+            学習院大学経済学部教授<br>
+            <img src="image/shirota.jpg" width=200>
+            </td>
+            <td width=650>
+            <h3>チュートリアル2:<br>見てわかる数学　Visually Do Mathematics !</h3>
+            可視化教材は難解な数学を理解するときに力となります。20年に渡り、可視化教材を数学教育に用いて、国内外で数学の講義を行い成果をあげてきました。
+            <br>
+            まず、可視化教材で公式の意味の概要を理解します。その後で公式を見ると、図との対応でよく分かります。
+            また、Big Data時代では、統計処理の結果を数値で見て理解することはほぼ不可能で、可視化が必須です。
+            本チュートリアルでは、機械学習でよく使う数学の可視化教材を紹介いたします。
+            ラグランジェの未定乗数法はAIの数学の中で最も頻繁に出てくる公式です。その公式を視覚的に理解することは、AI関連のテキストを読むとき大変助けになると思います。
+            講義では、次元圧縮としての主成分分析（PCA)を、ラグランジェの未定乗数法を用いて視覚的に説明します。また、PCAの拡張として、statistical shape analysis法を解説します。これは筆者のチームではこの手法でBig Dataの時系列変化の特徴抽出を行っています。その実例として、アフィン変換部分のみの時系列変化のようすをお見せします。
+            shape analysis自体の可視化教材は
+            <a href="http://www.dslab.it.aoyama.ac.jp/dsaa2017/tutorials/#Vis" target=_blank>
+            <u>ここにあります</u></a>。
+            <br>
+            次に、テキストのトピック抽出でよく使われているLSAの数学、特異値分解(SVD)を
+            <a href="http://www.iaiai.org/journals/index.php/IEE/article/view/70" target=_blank>
+            <u>図で解説します</u></a>。
+            <br>
+            機械学習関連の数学では、正則化のL1とL2の違いを視覚的に説明します。そして、Stochastic Gradient Decent アルゴリズム、最後にGibbs Sampling法でMCMCによってトピック抽出をするようすを
+            <a href="http://www.iaiai.org/journals/index.php/IEE/article/view/91/92" target=_blank>
+            <u>アニメーションで見せます</u></a>。
+            <br>
+            日頃使っている数学をよく深く理解することができます。
+            （<a href="https://www-cc.gakushuin.ac.jp/~20010570/mathABC/SELECTED/" target=_blank>
+              <u>可視化教材はこちら</u></a>にあります。）
+              <br><br>
+              学習院女子中等科・高等科卒業。
+              学習院大学理学部物理学科大学院修士課程修了。
+              東京大学理学部情報科学科大学院修士課程修了。
+              東京大学理学部情報科学科大学院博士課程修了。理学博士号取得。
+              企業にて約10年の研究生活の後、学習院大学経済学部助教授を経て、同学部教授。現在に至る。
+              2006年９月〜2007年３月イギリス・オックスフォード大学客員研究員。
+
+            </td>
+          </tr></table>
+
+		      <table><tr>
+          <td width=250>
+		      <h2><a href="http://www.jamstec.go.jp/souran/html/Daisuke_Matsuoka002717-j.html" target=_blank>松岡大祐</a> </h2>
+		      海洋研究開発機構 地球情報基盤<br>センター 技術研究員／科学技術<br>振興機構 さきがけ研究者<br>
+		      <img src="image/matsuoka.jpg" width=200>
+          </td>
+          <td width=650>
+          <h3>基調講演1:<br> 機械学習と可視化が拓く気象ビッグデータ解析</h3>
+          スーパーコンピュータや観測機器の性能向上や普及にともない、シミュレーションデータや衛星観測データを始めとした膨大な量の気象データの蓄積が進んでいます。
+          一方で、大量のデータから特定のパターンの特徴量を学習し、未学習のデータに対して何らかの予測を行うための手法として、ディープラーニングを始めとした機械学習手法が注目を浴びています。
+          本講演では、機械学習と気象ビッグデータを用いた台風や豪雨の発生予測、前線の抽出等の事例を紹介します。また、異なる種類の気象データを統一的に扱うための可視化や、ブラックボックスとされる機械学習に説明性を与えるための可視化等、機械学習を用いた気象ビッグデータ解析を発展させるための「可視化」に対する期待についても議論します。
+          <br><br>
+          2000年国立大島商船高等専門学校卒業、2008年愛媛大学大学院理工学研究科博士課程修了。博士（工学）。
+          2009年より海洋研究開発機構地球シミュレータセンター研究員（2015年より現職）、
+          2015〜2016年東京工業大学大学院情報理工学研究科客員准教授、2017年より科学技術振興機構さきがけ研究者。
+          可視化情報学会理事、「画像認識・機械学習に関する講習会」実行委員長。
+		      </td>
+          </tr></table>
+
+          <br><br>
+
+		      <table><tr><td width=250>
+		      <h2><a href="http://krectmt3.sd.tmu.ac.jp/~takama/" target=_blank>高間康史 </a></h2>
+          首都大学東京システムデザイン<br>学部教授<br>
+		      <img src="image/takama.jpg" width=200>		                	</td><td width=650>
+			    <h3>基調講演2:<br> 人と計算機の協調のための可視化</h3>
+          人工知能の性能向上により、計算機にすべて任せる完全自動化もタスクによっては可能となりつつある。
+          一方で、人間と計算機が協調することを目指すアプローチも研究されている。データ解析や機械学習の分野では、対象ドメインに詳しい分析者をプロセスに含めるhuman-in-the-loopのコンセプトが提唱されており、そこでは人と計算機の橋渡し役として可視化が重要な役割を果たす。
+          本発表ではhuman-in-the-loopおよび関連する話題であるsemantic interactionなどについて紹介し、人と計算機の協調のために可視化が果たす役割について考える。
+			    <br><br>
+          1994年東京大学工学部電子工学科卒業。1999年同大学院博士課程修了。
+          1999-2002年東京工業大学大学院総合理工学研究科助手、2002-2005年東京都立科学技術大学助教授、2005-2014年首都大学東京システムデザイン学部准教授、2014年より同教授。博士(工学)。
+          Web Intelligenceや情報可視化、知的インタフェースの研究に従事。主要著書は情報可視化(森北出版)、インテリジェントネットワークシステム入門（コロナ社）。
+          IEEE，ACM，人工知能学会、電子情報通信学会、情報処理学会、日本知能情報ファジィ学会各会員。
+			    </td></tr></table>
+
+          <br><br>
+
+          <table><tr><td width=250>
+          <h2><a href="http://lab.sdm.keio.ac.jp/ogi/" target=_blank>小木哲朗 </a></h2>
+          慶應義塾大学システムデザイン・<br>マネジメント研究科教授<br>
+          <img src="image/ogi.jpg" width=200>
+          </td><td width=650>
+          <h3>基調講演3:<br> VR/ARシステムとAI技術の融合</h3>
+          2016年にVR元年と言われてから、VRやARの技術はいよいよ実用化の時代に入りつつあります。VRやAR等の技術が、実験室の中から、一般の家庭や社会の中で使われる技術になっていくためには、ARマーカ等を用いた特殊なシステムではなく、環境に馴染み、誰でも手軽に使えるような、より簡単なインタフェースが求められています。そのため、近年同じく実用化に進みつつあるAIによる画像認識、音声認識等の技術を融合した、ハイブリットなVR/ARシステムの開発が注目されています。本講演では、我々が行っている動物園案内システム、次世代情報検索システム、マルチIoTスピーカ環境等の研究事例の紹介を含め、AI技術を融合したVR/ARシステムの研究動向について議論を行います。
+          <br><br>
+          1986年東京大学大学院工学系研究科修士課程修了。同年(株)三菱総合研究所 入社。1994年東京大学大学院工学系研究科博士課程修了、博士（工学）。1996年東京大学大学院工学系研究科助教授、1999年通信・放送機構MVLリサーチセンター研究員、2004年筑波大学大学院システム情報工学研究科准教授を経て、2008年より慶應義塾大学システムデザイン・マネジメント研究科教授。日本バーチャルリアリティ学会、ヒューマンインタフェース学会、日本機械学会、計測自動制御学会等、各会員。
+          </td></tr></table>
+
+          <br><br>
+
+          <table><tr><td width=250>
+          <h2>安藤幸央</h2>
+          （あんどうゆきお）<br>
+          シーグラフ東京委員長<br>
+          <img src="image/andoh.jpg" width=200>
+         </td><td width=650>
+          <h3>東京開催 SIGGRAPH ASIA 2018 レポート（総括編）</h3>
+          2018年の SIGGRAPH ASIA は、東京での開催となりました。
+          CG映像のメイキングからインスピレーションを受け、世代や業種を越えて、世界の皆さんとコミュニケーションし、一年分のモチベーションを蓄えることができます。
+          本講演ではSIGGRAPH ASIA で紹介された数々のCGセッション、インタラクティブ展示に関して、CGの最先端技術から、コンシューマー向けのVRコンテンツまで、多岐にわたってご紹介します。
+          また 2019年夏に開催される SIGGRAPH 2019 に関してもいち早くご紹介いたします。
+
+          <br><br>
+          シーグラフ東京委員長。
+          株式会社エクサ　スマートシステム開発本部 / 企画部 所属。
+          三次元コンピュータグラフィックス、ユーザエクスペリエンスデザインが専門。
+          Webから始まり情報家電、スマートフォンアプリ、VRシステム、
+          巨大立体視ドームシアター、デジタルサイネージ、メディアアートまで、
+          多岐にわたった仕事を手がける。
+          米国グーグル公認デザインスプリントマスター。
+          「Generative Design—Processingで切り拓く、デザインの新たな地平」翻訳
+          「Processing:ビジュアルデザイナーとアーティストのためのプログラミング入門」翻訳
+          「SF映画で学ぶインタフェースデザイン アイデアと想像力を鍛え上げるための141のレッスン」監訳
+
+          <br><br>
+          <font size=+1><strong><a href="siggraphasia2018-andoh.pdf" target=_blank>講演資料</a></strong></font>をご提供いただきました。
+          <br><br>
+
+          </td></tr></table>
+
+                    </div><br><br>
+                    </div>
+                </div>
+            </div>
+
+          </div>
+
+ -->
+
+        <div class="container" id="organizer" style="padding-top : 80px">
+            <div class="content-we">
+                <h2 style="text-transform:none"><span class="we-are"> </span>実行委員会・協賛団体</h2>
+                <h3>主催</h3>
+                <a href="http://www.visualization.jp/" target=_blank><b>可視化情報学会</b></a>
+
+         
+                <h3>協賛企業</h3>
+                <a href="./data/5thVW_kyosan_tenji.pdf" target=_blank><b>協賛・企業展示のお願い(PDF)</b></a>
+<!--                       
+                <table><tr><td width=225>
+                <a href="http://www.fujitsu.com/jp/solutions/business-technology/tc/" target=_blank>
+                <b>富士通</b><br>
+                <img src="image/fujitsu.jpg" width=200></a>
+              </td><td width=225>
+                <a href="https://www.ark-info-sys.co.jp/" target=_blank>
+                <b>アーク情報システム</b><br>
+                <img src="image/ark.png" width=200></a>
+              </td><td width=225>
+                <a href="https://www.v-t.co.jp/" target=_blank>
+                <b>ビジュアルテクノロジー</b><br>
+                <img src="image/vt.gif" width=200></a>
+              </td><td width=225>
+                <a href="https://www.i4s.co.jp/" target=_blank>
+                <b>キャトルアイ・サイエンス</b><br>
+                <img src="image/i4s.png" width=200></a>
+              </td></tr><tr><td width=225>
+                <a href="http://www.cybernet.co.jp/" target=_blank>
+                <b>サイバネットシステム</b><br>
+                <img src="image/cybernet.gif" width=200></a>
+              </td><td width=225>
+                <a href="https://www.hpctech.co.jp/" target=_blank>
+                <b>HPCテック</b><br>
+                <img src="image/hpctech.jpg" width=200></a>
+              </td><td width=225>
+                <a href="http://www.univpc.com/" target=_blank>
+                <b>トーワ電機</b><br>
+                <img src="image/towa.gif" width=200></a>
+              </td></tr></table>
+            -->
+                <h3>協賛学会</h3>
+<!--                    
+                <a href="http://art-science.org/" target=_blank>芸術科学会</a>,
+                <a href="http://www.di.mi.uec.ac.jp/ddi/" target=_blanK>日本機械学会計算力学部門設計情報駆動研究会</a>,
+                <a href="http://www.jsces.org/" target=_blank>日本計算工学会</a>,
+                <a href="http://www.jsst.jp/j/" target=_blank>日本シミュレーション学会</a>,
+                <a href="https://vrsj.org/" target=_blank>日本バーチャルリアリティ学会</a>
+-->            
+                <h3>実行委員会</h3>
+                  <a href="http://itolab.is.ocha.ac.jp/~itot/" target=_blank>
+                  <b>伊藤 貴之</b></a> (お茶の水女子大学) <b>(幹事)</b><br>
+                  <a href="http://masahiko-itoh.blogspot.com/" target=_blank>
+                  <b>伊藤正彦</b></a> (北海道情報大学) <b>(実行委員長)</b><br>
+                  <b>坂本尚久</b> (神戸大学)<br>
+                  <b>土井章男</b> (岩手県立大学)<br>
+                  <b>宮地英生</b> (東京都市大学)<b>(会計)</b><br>
+
+            </div>
+          </div>
+
+<!--
+        <div class="container" id="access"   style="padding-top : 80px">
+            <div class="content-we">
+                <h2 style="text-transform:none"><span class="we-are"> </span>オンライン情報</h2>
+                参加者の皆様には追ってアナウンスいたします。
+                <br><br><br>
+                <center>                
+              </center>
+            </div>
+          </div>
+-->          
+
+        
+    <br>
+    <div class="footer" >
+        <div class="container">
+            <div class="footer-top" style="padding-top: 32px" >
+                <div class="footer-class" >
+                    <p>可視化情報学会第5回ビジュアリゼーションワークショップ</p>
+
+
+                </div>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <script type="text/javascript">
+        $(document).ready(function() {
+
+            $().UItoTop({
+                easingType: 'easeOutQuart'
+            });
+
+        });
+        </script>
+        <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+    </div>
+</body>
+
+</html>

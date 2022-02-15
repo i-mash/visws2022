@@ -1,6 +1,6 @@
 import pandas as pd
 
-df_list = pd.read_excel('..\..\投稿申し込み関係\第5回ビジュアリゼーションワークショップポスター発表申し込みフォーム（回答）.xlsx')
+df_list = pd.read_excel('..\..\投稿申し込み関係\第5回ビジュアリゼーションワークショップポスター発表申し込みフォーム（回答）_20220215.xlsx')
 
 #print(df_list)
 
